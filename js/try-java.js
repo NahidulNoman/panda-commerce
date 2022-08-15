@@ -33,10 +33,10 @@ nikeShoes.addEventListener('mouseenter',function(){
 
 let nikeAirMax = document.getElementById('airmax');
 nikeAirMax.addEventListener('mouseover',function(){
-    nikeAirMax.src = 'images/shoes/shoe-3.png'
+    nikeAirMax.src = 'images/shoes/shoe-1.png'
 })
 nikeAirMax.addEventListener('mouseout',function(){
-    nikeAirMax.src = 'images/shoes/shoe-1.png'
+    nikeAirMax.src = 'images/shoes/shoe-3.png'
 })
 let redTextColor = document.getElementById('red-text');
 let nikeRedShoes = document.getElementById('red-shoes');
@@ -81,31 +81,44 @@ section.addEventListener('dblclick',function(){
     section.style.borderRadius = '30px';
     subscribeText.style.color = 'white'
 })
+let shoes = document.getElementById('red-apex');
+let apexBag = document.getElementById('apex');
+let apexJut = document.getElementById('apexButton');
+apexBag.addEventListener('mouseenter',function(){
+    apexBag.style.backgroundColor = 'purple';
+    apexBag.style.borderRadius = '30px';
+    shoes.style.color = 'white';
+    apexJut.style.color = 'white';
+})
+let caterPil = document.getElementById('cater');
+let caterId = document.getElementById('caterid');
+caterPil.addEventListener('mouseenter',function(){
+    caterPil.style.backgroundColor = 'cyan';
+    caterPil.style.borderRadius = '30px';
+    caterId.style.color = 'orange';
+})
+
+
+
 
 // mouseover and change image
 let getImage = document.getElementById('image');
 getImage.addEventListener('mouseover',function(){
-    getImage.src = 'images/bags/bag-3.png';
+    getImage.src = 'images/bags/bag-2.png';
     
 })
 getImage.addEventListener('mouseout',function(){
-    getImage.src = 'images/bags/bag-2.png';
+    getImage.src = 'images/bags/bag-3.png';
 
 })
-// mouseover and change text color
-let shoes = document.getElementById('red-apex');
-shoes.addEventListener('mouseover',function(){
-    shoes.style.color = 'red'
-})
+
 
 let getAll = document.getElementsByTagName('h3');
-getAll.addEventListener('click',function(){
-    getAll.style.color = 'red'
+for(get of getAll){
+    get.style.color = 'green'
+}
+
+let removeButton = document.getElementById('remove');
+removeButton.addEventListener('click',function(){
+    removeButton.style.display = 'none';
 })
-
-
-// let shoes = document.getElementsByTagName('body');
-// shoes.addEventListener('click',function(){
-//     shoes.h3.style.color = 'yellow'
-// })
-
