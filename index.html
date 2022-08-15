@@ -112,7 +112,7 @@
    
    <!-- header end -->
    <!-- bag start -->
-   <section>
+   <section >
      <div class="container text-center mt-5 mb-5">
       <div class="row g-2">
         <div class="col-lg-4 col-md-6 col-sm-12">
@@ -143,34 +143,38 @@
   <section class="container mb-5" id="Shoes">
     <h2>Shoes</h2>
     <div class="row g-4">
-      <div class="col-lg-4 col-md-6 col-sm-12 shadow p-4">
-        <div>
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div id="radius" class="shadow p-4">
           <img style="width:90% ;" src="images/shoes/shoe-1.png" alt="">
         <h3>Supply 350</h3>
         <h1>$160</h1>
         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
         <br><br>
-        <button type="button" class="btn bottom-color text-white">Buy Now</button>
+        <button id="color-white" type="button" class="btn bottom-color">Buy Now</button>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 shadow p-4">
-        <div>
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div id="nike-shoes"  class="shadow p-4">
           <img style="width:90% ;" src="images/shoes/shoe-2.png" alt="">
-        <h3>Nike 360</h3>
+        <div id="nike-text">
+          <h3>Nike 360</h3>
         <h1>$160</h1>
         <p>This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
         <br><br><br>
-        <button type="button" class="btn bottom-color text-white">Buy Now</button>
+        <button id="nike-Button" type="button" class="btn bottom-color ">Buy Now</button>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 shadow p-4">
-        <div>
-          <img style="width:90% ;" src="images/shoes/shoe-3.png" alt="">
-        <h3>Red Airmax</h3>
+      <div class="col-lg-4 col-md-6 col-sm-12 ">
+        <div id="red-shoes" class="shadow p-4">
+          <img id="airmax" style="width:90% ;" src="images/shoes/shoe-3.png" alt="">
+        <div id="red-text">
+          <h3>Red Airmax</h3>
         <h1>$160</h1>
         <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+        </div>
         <br><br>
-        <button type="button" class="btn bottom-color text-white">Buy Now</button>
+        <button id="red-Button" type="button" class="btn bottom-color">Buy Now</button>
         </div>
       </div>
     </div>
@@ -182,34 +186,38 @@
   <section class="container mb-5" id="Backpack">
   <h1>Backpack</h1>
   <div class="row g-4">
-    <div class="col-lg-4 col-md-6 col-sm-12 shadow p-4">
-      <div>
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
+      <div id="bag1" class="shadow p-4">
         <img style="width:90% ;" src="images/bags/bag-1.png" alt="">
-      <h3>Red Laltu Bag</h3>
-      <h1>$160</h1>
-      <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+        <div id="text-color">
+          <h3>Red Laltu Bag</h3>
+          <h1>$160</h1>
+          <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+        </div>
       <br><br>
-      <button type="button" class="btn bottom-color text-white">Buy Now</button>
+      <button type="button" id="button" class="btn bottom-color">Buy Now</button>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 shadow p-4">
-      <div>
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
+      <div class="shadow p-4">
         <img style="width:90% ;" src="images/bags/bag-2.png" alt="">
       <h3>Caterpiller</h3>
       <h1>$160</h1>
       <p>This card has supporting text below as a natural lead-in to additional content.</p>
       <br><br><br>
-      <button type="button" class="btn bottom-color text-white">Buy Now</button>
+      <button type="button" class="btn bottom-color">Buy Now</button>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 shadow p-4">
-      <div>
-        <img style="width:90% ;" src="images/bags/bag-3.png" alt="">
-      <h3>Red Apex</h3>
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
+      <div class="shadow p-4">
+        <img id="image" style="width:90% ;" src="images/bags/bag-3.png" alt="">
+      <div id="red-apex">
+        <h3>Red Apex</h3>
       <h1>$160</h1>
       <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+      </div>
       <br><br>
-      <button type="button" class="btn bottom-color text-white">Buy Now</button>
+      <button type="button" class="btn bottom-color">Buy Now</button>
       </div>
     </div>
   </div>
@@ -217,18 +225,19 @@
   </section>
   <!-- backpack end -->
   <!-- Subscribe start -->
-<div class="container d-flex align-items-center justify-content-around p-5 background border rounded-3" id="Subscribe">
+<div class="container d-flex align-items-center justify-content-around p-5 background border " id="Subscribe">
   <div>
-    <h1>LET'S STAY IN TOUCH</h1>
+    <div id="sub-text">
+      <h1>LET'S STAY IN TOUCH</h1>
   <p>Get updates on sales, specials and more</p>
+    </div>
   <div class="mb-3">
-    <input type="email" class="form-control">
+    <input placeholder="Please type email" id="text-field" type="email" class="form-control">
   </div>
-  <button type="button" class="btn text-white bottom-color">Submit</button>
+  <button id="buttonCall" type="button" class="btn bottom-color" disabled>Submit</button>
 
   </div>
 
- 
 </div>
 
   <!-- Subscribe end -->
@@ -239,7 +248,7 @@
 
 
 
-
+<script src="js/try-java.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
