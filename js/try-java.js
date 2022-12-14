@@ -105,8 +105,8 @@ caterPil.addEventListener('mouseenter',function(){
 let getImage = document.getElementById('image');
 getImage.addEventListener('mouseover',function(){
     getImage.src = 'images/bags/bag-2.png';
-    
 })
+
 getImage.addEventListener('mouseout',function(){
     getImage.src = 'images/bags/bag-3.png';
 
